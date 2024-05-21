@@ -10,8 +10,8 @@ export default function CartProvider({ children }: { children: ReactNode }) {
       mode="payment"
       cartMode="client-only"
       stripe={process.env.NEXT_PUBLIC_STRIPE_KEY as string}
-      successUrl="https://nextjs-ahmed-ecommerce.vercel.app/stripe/success"
-      cancelUrl="https://nextjs-ahmed-ecommerce.vercel.app/stipe/error"
+      successUrl="https://ahmed-nextjs-ecommerce.vercel.app/stripe/success"
+      cancelUrl="https://ahmed-nextjs-ecommerce.vercel.app/stripe/error"
       currency="AED"
       billingAddressCollection={true}
       shouldPersist={true}
